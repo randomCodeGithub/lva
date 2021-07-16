@@ -1,0 +1,552 @@
+table {
+  tbody {
+    tr {
+      &:nth-child(2n + 1) {
+        background-color: rgba(154, 154, 154, 0.1);
+      }
+    }
+  }
+}
+
+.certification,
+.price-list {
+  h1 {
+    font-family: DMSans-Medium;
+  }
+  a {
+    color: #76c488;
+    &:visited {
+      color: #23a09b;
+    }
+  }
+}
+
+.documents {
+  &__file {
+    font-family: DMSans-Medium;
+  }
+}
+
+//   CERTIFICATION MEET
+.certification-meet {
+  h2 {
+    margin-bottom: 1.8rem;
+  }
+  table {
+    thead {
+      border-bottom: 1px solid #000;
+
+      th {
+        padding: 0rem 0.7rem;
+        padding-bottom: 0.7rem;
+      }
+    }
+
+    tbody {
+      td {
+        padding: 0.7rem 0.75rem;
+      }
+    }
+  }
+}
+
+//   DOCUMENTS
+.documents {
+  h2 {
+    margin-bottom: 2rem;
+  }
+  &__file {
+    margin-bottom: 1rem;
+    padding: 0.9rem 1rem;
+    background-color: rgba(154, 154, 154, 0.1);
+
+    img {
+      margin-right: 1rem;
+      margin-bottom: -0.2rem;
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: #474747;
+      border-right: 6px solid #76c488;
+      background-color: rgba(118, 196, 136, 0.16);
+    }
+  }
+}
+
+// CERTIFICATION ORDER PAY
+.certificate-order-pay {
+  h2,
+  p {
+    padding: 0 12rem;
+  }
+
+  h2 {
+    margin-bottom: 1.9rem;
+  }
+  ul {
+    list-style: none;
+    li {
+      &:first-child {
+        font-family: DMSans-Medium;
+      }
+    }
+  }
+}
+
+.price-list {
+  h3 {
+    font-family: DMSans-Medium;
+  }
+
+  &.page {
+    table {
+      tbody {
+        tr {
+          td {
+            &:first-child,
+            &:last-child {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+    p.body-text {
+      font-family: DMSans-Medium;
+      margin-bottom: 0;
+    }
+  }
+
+  table {
+    thead {
+      border-bottom: 1px solid #000;
+      th {
+        font-weight: 400;
+      }
+    }
+  }
+
+  table {
+    thead {
+      th {
+        padding: 0rem 0.7rem;
+        padding-bottom: 0.6rem;
+      }
+    }
+    tbody {
+      td {
+        padding: 0.6rem 0.75rem;
+        padding-bottom: 0.7rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .certification {
+    margin-top: 5.7rem;
+    margin-bottom: 3.1rem;
+
+    h1 {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      margin-bottom: 1.32rem;
+    }
+
+    .container {
+      max-width: 296px;
+      padding: 0;
+    }
+  }
+
+  // CERTIFICATION MEET
+  .certification-meet {
+    margin-bottom: 4.26rem;
+    h2 {
+      margin-top: -0.5rem;
+    }
+
+    .container {
+      max-width: 296px;
+      padding: 0;
+    }
+
+    table {
+      thead {
+        th {
+          &:first-child {
+            width: 48.8%;
+          }
+        }
+      }
+
+      tbody {
+        td {
+          line-height: 22px;
+          padding-bottom: 0.7rem;
+          vertical-align: baseline;
+        }
+      }
+    }
+  }
+
+  // DOCUMENTS
+  .documents {
+    margin-bottom: 3.4rem;
+    &__file {
+      width: 296px;
+      align-items: baseline;
+      margin-bottom: 0.9rem;
+
+      span {
+        line-height: 22px;
+      }
+
+      img {
+        margin-top: 3.5px;
+      }
+    }
+  }
+
+  // CERTIFICATION ORDER DAYS
+  .certificate-order-pay {
+    margin-bottom: 1rem;
+    h2,
+    p {
+      padding: 0;
+    }
+
+    ul {
+      margin-bottom: 1.3rem;
+      li {
+        line-height: 21px;
+      }
+    }
+
+    .container {
+      max-width: 296px;
+      padding: 0;
+    }
+  }
+
+  .current-event-single {
+    margin-bottom: 5.4rem;
+    .content-body {
+      margin-bottom: 1.85rem;
+    }
+    .table-mobile {
+      margin-bottom: 2.5rem;
+      h5 {
+        font-family: DMSans-Medium;
+        margin-bottom: 0.3rem;
+      }
+
+      p {
+        margin-bottom: 0.8rem;
+        letter-spacing: -0.01em;
+      }
+
+      &__row {
+        padding: 0.8rem 0.8rem;
+        padding-bottom: 0;
+        padding-right: 1rem;
+        border-bottom: 1px solid #000;
+        &:last-child {
+          border-bottom: none;
+        }
+        &:nth-child(odd) {
+          background-color: rgba(154, 154, 154, 0.1);
+        }
+      }
+    }
+    .col-lg-8 {
+      &:last-child {
+        text-align: center;
+      }
+    }
+  }
+
+  // PRICE LIST
+  .price-list {
+    margin-bottom: 3.45rem;
+    h3 {
+      margin-bottom: 0.9rem;
+    }
+
+    p {
+      margin-bottom: 2rem;
+    }
+
+    .container {
+      max-width: 296px;
+      padding: 0;
+    }
+
+    &.page {
+      margin-top: 5.6rem;
+      margin-bottom: 2.1rem;
+
+      h1 {
+        margin-bottom: 2.1rem;
+      }
+
+      .table-mobile {
+        margin-bottom: 2.5rem;
+        h5 {
+          font-family: DMSans-Medium;
+          margin-bottom: 0.3rem;
+        }
+
+        p {
+          margin-bottom: 0.8rem;
+          letter-spacing: -0.01em;
+        }
+
+        &__row {
+          padding: 0.8rem 0.8rem;
+          padding-bottom: 0;
+          border-bottom: 1px solid #000;
+          &:last-child {
+            border-bottom: none;
+          }
+          &:nth-child(odd) {
+            background-color: rgba(154, 154, 154, 0.1);
+          }
+        }
+      }
+    }
+
+    table {
+      margin-bottom: 1rem;
+      thead {
+        th {
+          &:first-child {
+            width: 64.8%;
+          }
+        }
+      }
+
+      tbody {
+        td {
+          vertical-align: baseline;
+          padding-right: 0;
+          line-height: 22.2px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  // CERTIFICATION
+  .certification {
+    margin-top: 11rem;
+    margin-bottom: -1.4rem;
+    h1 {
+      margin-bottom: 4rem;
+    }
+
+    p {
+      margin-bottom: 1.3rem;
+    }
+
+    .col-12 {
+      padding: 0 12.6rem;
+    }
+  }
+
+  //   CERTIFICATION MEET
+  .certification-meet {
+    margin-bottom: 7.7rem;
+    h2 {
+      margin-bottom: 1.8rem;
+    }
+    table {
+      width: 66.1%;
+      thead {
+        th {
+          &:first-child {
+            width: 76.8%;
+          }
+        }
+      }
+
+      tbody {
+        td {
+          padding-bottom: 0.6rem;
+        }
+      }
+    }
+  }
+
+  //   DOCUMENTS
+  .documents {
+    margin-bottom: 6.8rem;
+    h2 {
+      margin-bottom: 2rem;
+    }
+    &__file {
+      margin-bottom: 1rem;
+      padding: 0.9rem 1rem;
+      width: 66.1%;
+      background-color: rgba(154, 154, 154, 0.1);
+
+      img {
+        margin-right: 1rem;
+        margin-bottom: -0.2rem;
+      }
+
+      &:hover {
+        text-decoration: none;
+        color: #474747;
+        border-right: 6px solid #76c488;
+        background-color: rgba(118, 196, 136, 0.16);
+      }
+    }
+  }
+  // CERTIFICATION ORDER PAY
+  .certificate-order-pay {
+    margin-bottom: 3.2rem;
+    h2,
+    p {
+      padding: 0 12rem;
+      margin-bottom: 0.7rem;
+    }
+
+    h2 {
+      margin-bottom: 1.9rem;
+    }
+
+    ul {
+      margin-bottom: 1.5rem;
+      li {
+        margin-bottom: -0.2rem;
+      }
+    }
+  }
+
+  //   PRICE LIST
+  .price-list {
+    margin-bottom: 5.7rem;
+
+    &.page {
+      margin-top: 11rem;
+      margin-bottom: 1.9rem;
+      table {
+        width: 100%;
+
+        thead {
+          th {
+            &:first-child {
+              width: 50.5%;
+            }
+            &:nth-child(2) {
+              width: 40.2%;
+            }
+            &:last-child {
+              width: 9.3%;
+            }
+          }
+        }
+        tbody {
+          tr {
+            td {
+              padding: 0.6rem 0.55rem;
+
+              &:first-child {
+                padding-right: 5rem;
+              }
+
+              &:nth-child(2) {
+                padding-right: 2rem;
+              }
+              &:last-child {
+                vertical-align: baseline;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    h1 {
+      margin-bottom: 3.9rem;
+    }
+    h3 {
+      margin-bottom: 2.1rem;
+    }
+    table {
+      width: 66.1%;
+      margin-bottom: 2rem;
+      thead {
+        border-bottom: 1px solid #000;
+        th {
+          padding: 0rem 0.7rem;
+          padding-bottom: 0.6rem;
+          &:first-child {
+            width: 76.8%;
+          }
+        }
+      }
+      tbody {
+        td {
+          padding: 0.6rem 0.75rem;
+          padding-bottom: 0.7rem;
+        }
+      }
+    }
+    p {
+      width: 66.1%;
+    }
+
+    .col-12 > h3 {
+      width: 66.1%;
+      line-height: 30px;
+    }
+    p {
+      margin-bottom: 4.1rem;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .certification {
+    margin-top: 8.8rem;
+    margin-bottom: 7rem;
+
+    h1 {
+      margin-bottom: 4rem;
+    }
+  }
+
+  .certification-meet,
+  .documents,
+  .certificate-order-pay {
+    margin-bottom: 3.7rem;
+  }
+
+  .certificate-order-pay {
+    h2,
+    p {
+      padding: 0;
+    }
+  }
+
+  .price-list {
+    margin-bottom: 5.7rem;
+
+    &.page {
+      margin-top: 8.8rem;
+
+      table {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .price-list.page + section.requisites {
+    margin-bottom: 5.7rem;
+  }
+}

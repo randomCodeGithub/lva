@@ -1,0 +1,185 @@
+body {
+  // DARK THEME 1, DARK THEME 2
+  &.dark-theme,
+  &.dark-theme-2 {
+    &,
+    header,
+    footer .copyright,
+    .overlay-menu {
+      background-color: #000 !important;
+    }
+
+    .current-events {
+      &__block {
+        .date-block,
+        .event-description {
+          background-color: #000;
+        }
+      }
+    }
+  }
+
+  //   DARK THEME 1
+  &.dark-theme {
+    &,
+    i,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    a {
+      color: #fff !important;
+    }
+
+    .toggler {
+      &,
+      &:before,
+      &:after {
+        background-color: #fff;
+      }
+    }
+
+    .description {
+      h1 {
+        &:after {
+          background-color: #fff;
+        }
+      }
+    }
+
+    footer {
+      border-color: #fff;
+    }
+
+    .btn-form-submit,
+    .btn-custom-lg,
+    .btn-all {
+      background: #000;
+      border: 2px solid #fff !important;
+
+      &:hover,
+      &:active {
+        background-color: #fff;
+        color: #000 !important;
+      }
+    }
+  }
+
+  //   DARK THEME 2
+  &.dark-theme-2 {
+    &,
+    i,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    a {
+      color: yellow !important;
+    }
+
+    .toggler {
+      &,
+      &:before,
+      &:after {
+        background-color: yellow;
+      }
+    }
+
+    .btn-form-submit,
+    .btn-custom-lg,
+    .btn-all {
+      background: #000;
+      border: 2px solid yellow;
+
+      &:hover,
+      &:active {
+        background-color: yellow;
+        color: #000 !important;
+      }
+    }
+
+    .description {
+      h1 {
+        &:after {
+          background-color: yellow;
+        }
+      }
+    }
+
+    .current-events {
+      &__block {
+        border-right: 6px solid yellow;
+      }
+    }
+
+    footer {
+      border-color: yellow;
+    }
+  }
+
+  //   YELLOW THEME
+  &.yellow-theme {
+    &,
+    i,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    a {
+      color: #000 !important;
+    }
+
+    .btn-form-submit,
+    .btn-custom-lg,
+    .btn-all {
+      background: yellow;
+      border: 2px solid #000;
+
+      &:hover,
+      &:active {
+        background-color: #000;
+        color: yellow !important;
+      }
+    }
+
+    .toggler {
+      &,
+      &:before,
+      &:after {
+        background-color: black;
+      }
+    }
+
+    .description {
+      h1 {
+        &:after {
+          background-color: #000;
+        }
+      }
+    }
+
+    .current-events {
+      &__block {
+        border-right: 6px solid #000;
+        .date-block,
+        .event-description {
+          background-color: yellow;
+        }
+      }
+    }
+
+    &,
+    header,
+    .overlay-menu,
+    footer .copyright {
+      background-color: yellow;
+    }
+
+    footer {
+      border-color: #000;
+    }
+  }
+}

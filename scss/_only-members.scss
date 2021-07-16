@@ -1,0 +1,89 @@
+.member-login {
+
+  form {
+
+    .form-group {
+      &.position-relative {
+        i {
+          right: 22px;
+          top: 50%;
+          margin-top: -8px;
+        }
+      }
+    }
+    input {
+      padding: 1.8rem 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .member-login {
+    margin-top: 5.6rem;
+    margin-bottom: 4.3rem;
+    h1 {
+      text-align: center;
+      margin-bottom: 2.2rem;
+    }
+
+    form {
+      button {
+        margin-top: 1.1rem;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .container {
+      max-width: 296px;
+      padding: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .member-login {
+    margin-top: 8.8rem;
+    margin-bottom: 11.2rem;
+    h1 {
+      text-align: center;
+      margin-bottom: 2.3rem;
+    }
+
+    .container {
+      max-width: 544px;
+      padding: 0;
+    }
+
+    form {
+      margin: 0 auto;
+      width: 350px;
+
+      button {
+        margin: 1rem 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .member-login {
+    margin-top: 11.9rem;
+    margin-bottom: 8.2rem;
+
+    h1 {
+      margin-bottom: 2.2rem;
+    }
+    .container {
+      max-width: 1120px;
+      padding: 0;
+    }
+
+    form {
+      width: 64.8%;
+      button {
+        margin-top: 1.1rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+body {
+  &[page-font-size="0.75"] {
+    h1 {
+      font-size: 37.5px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 19.5px;
+    }
+
+    h4,
+    .btn-all,
+    nav .navbar-list a,
+    a {
+      font-size: 12.75px;
+    }
+
+    h5,
+    .btn-custom-lg,
+    .body-text {
+      font-size: 12px;
+    }
+
+    p {
+      font-size: 16.5px;
+    }
+
+    @media (max-width: 767.98px) {
+      h1 {
+        font-size: 26.25px;
+      }
+
+      h2 {
+        font-size: 21px;
+      }
+
+      h3 {
+        font-size: 16.5px;
+      }
+
+      p {
+        font-size: 14.25px;
+      }
+    }
+  }
+
+  &[page-font-size="1.25"] {
+    h1 {
+      font-size: 62.5px;
+    }
+
+    h2 {
+      font-size: 50px;
+    }
+
+    h3 {
+      font-size: 32.5px;
+    }
+
+    h4,
+    .btn-all,
+    nav .navbar-list a,
+    a {
+      font-size: 21.25px;
+    }
+
+    h5,
+    .btn-custom-lg,
+    .body-text {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 27.5px;
+    }
+
+    footer {
+      word-break: break-word;
+    }
+
+    @media (max-width: 767.98px) {
+      h1 {
+        font-size: 43.75px;
+      }
+
+      h2 {
+        font-size: 35px;
+      }
+
+      h3 {
+        font-size: 27.5px;
+      }
+
+      p {
+        font-size: 23.75px;
+      }
+
+      footer .container {
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+    }
+  }
+
+  &[page-font-size="1.55"] {
+    h1 {
+      font-size: 77.5px;
+    }
+
+    h2 {
+      font-size: 62px;
+    }
+
+    h3 {
+      font-size: 40.3px;
+    }
+
+    h4,
+    .btn-all,
+    nav .navbar-list a,
+    a {
+      font-size: 26.35px;
+    }
+
+    h5,
+    .btn-custom-lg,
+    .body-text {
+      font-size: 24.8px;
+    }
+
+    p {
+      font-size: 34.1px;
+    }
+
+    footer {
+      word-break: break-word;
+    }
+
+    @media (max-width: 767.98px) {
+      h1 {
+        font-size: 54.25px;
+      }
+
+      h2 {
+        font-size: 43.4px;
+      }
+
+      h3 {
+        font-size: 34.1px;
+      }
+
+      p {
+        font-size: 29.45px;
+      }
+    }
+
+    @media (max-width: 991.98px) {
+      .overlay-menu {
+        height: 100%;
+        overflow: auto;
+      }
+    }
+
+    @media (min-width: 992px) {
+      header {
+        .bottom {
+          .navbar-list {
+            margin-top: 1rem;
+            > .navbar-nav {
+              flex-wrap: wrap;
+
+              a {
+                padding: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
